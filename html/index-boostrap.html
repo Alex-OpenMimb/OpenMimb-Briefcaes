@@ -1,0 +1,597 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/boostrap.css">
+    <link rel="stylesheet" href="../css/fontello.css">
+    <title>Portafolio</title>
+  </head>
+
+  <body>
+
+   <!-- Nav menu -->
+      <nav class="navbar navbar-dark navbar-expand-lg bg-dark w-100 py-3 fixed-top">
+        <div class="container">
+            <a href="#" class="navbar-brand ">
+               <img src="../imagenes/navbar-logo.svg" alt="logo" width="150px" height="auto" >
+            </a>
+            <button  class="navbar-toggler text-secondary menu-nav__button"    type="button" data-bs-toggle="collapse" data-bs-target="#navbar-responsive" aria-controls="navbar-responsive" aria-expanded="false" aria-label="Toggle navigation" > MENU
+               <span class="icon-menu"></span>
+            </button> 
+          <div class=" collapse navbar-collapse" id="navbar-responsive">
+              <ul class="navbar-nav ms-auto " >
+                  <li class="nav-item "><a class="nav-link   mx-1" href="#service">SERVICIOS</a></li>
+                  <li class="nav-item "><a class="nav-link   mx-1 " href="#briefcase">PORTAFOLIO</a></li>
+                  <li class="nav-item "><a class="nav-link   mx-1 " href="#about">SOBRE NOSOTROS</a></li>
+                  <li class="nav-item "><a class="nav-link   mx-1 " href="#team">EQUIPO DE TRABAJO</a></li>
+                  <li class="nav-item "><a type="button" data-bs-toggle="modal" data-bs-target="#contact" class="nav-link    mx-1" >CONTÁCTANOS</a></li>     
+                
+              </ul>             
+          </div> 
+         
+        </div>    
+      </nav>
+
+ <!--  header -->
+    
+    <header class="container-header">
+        <p class="header__title">Bienvenido a Nuestro Estudio!</p>
+        <p class="header__text">¡Que genial <br> conocerte!</p>
+        <a  href="#sect__service" class="btn btn-warning text-uppercase header__btn-service" role="button">Cuentanos más</a>
+
+    </header>
+
+    <!-- Service Section -->
+
+    <section id="service" class="container-service d-flex flex-column align-items-center" >
+
+     <div class="service__box">
+          <h2 class="service__tittle">Servicios</h2>
+          <h3 class="service__sub-tittle">Soluciones digitales basadas en la investigación</h3>
+     </div>
+
+      <div class="e-commerce__main-box">
+          <div class="e-commerce__box">
+              <div class="e-commerce__container-icon">
+                  <span id="e-commerce__icon" class="icon-basket"></span>
+              </div>
+                <h4 class="e-commerce__sub-tittle ">e-comerce</h4>
+                <div class="e-comerce__box-tex">
+                         <p class="e-commerce__text p-3 text-secondary"> Basados en la investigación de la conducta del consumidor creamos experiencias digitales que conecten de forma positiva y relevante la marca con su segmento de mercado</p>
+                </div>
+              
+          </div>
+          <div class="e-commerce__box">
+              <div class="e-commerce__container-icon">
+                  <span id="e-commerce__icon" class="icon-laptop"></span>
+              </div>
+                <h4 class="e-commerce__sub-tittle">Diseño Responsivo</h4>
+            <div class="e-comerce__box-tex">
+                  <p class="e-commerce__text p-3 text-secondary"> Basados en la investigación de la conducta del consumidor creamos experiencias digitales que conecten de forma positiva y relevante la marca con su segmento de mercado</p>
+         </div>
+          </div>
+          <div class="e-commerce__box">
+              <div class="e-commerce__container-icon">
+                  <span id="e-commerce__icon" class="icon-lock"></span>
+              </div>
+                <h4 class="e-commerce__sub-tittle">Seguridad Web</h4>
+
+            <div class="e-comerce__box-tex">
+                   <p class="e-commerce__text p-3 text-secondary"> Basados en la investigación de la conducta del consumidor creamos experiencias digitales que conecten de forma positiva y relevante la marca con su segmento de mercado</p>
+             </div>
+          </div>
+        
+      </div>
+    </section>
+
+     <!-- Briefcase section -->
+
+    <section id="briefcase" class="container-briefcase d-flex flex-column align-items-center px-3">
+          <h2 class="briescase__tittle"> Portafolio </h2>
+             
+          <p class="briescase__sub-tittle"> Conoce nuestro portafolio de servicios. </p>
+              
+          <div class="briescase__container-grid container ">
+
+              <div class="row ">
+                    <div class="briefcase__box-grid  d-flex flex-column align-items-center  col-12 col-sm-6 col-lg-4" >
+                        <div class="box-grid__container"> 
+                              <img class="box-grid__img " src="../imagenes/1.jpg" alt="">
+                              <button type="button" class=" box-grid__btn" data-bs-toggle="modal" data-bs-target="#window-modal">
+                              <i class="icon-plus"></i>
+                               </button>
+            
+                        </div>
+                        
+                              <h3 class="box-grid__title text-center">Threads
+                               </h3>
+                              <h4 class="box-grid__sub-title text-center">Ilustración</h4>
+
+                               <!-- Window modal -->
+
+                              <div class="modal fade"  id="window-modal" tabindex="-1"  aria-hidden="true">
+                      <div class="modal-dialog">
+                            <div class="modal-content">
+                                  <div class="modal-box-header">
+                                        <div class="modal-box-btn fs-6">
+                                          <button type="button" class="btn-close " data-bs-dismiss="modal" aria-label="close"></button>
+                                        </div>
+                                        <div class="modal-box-text text-center" >
+                                          <h4 class=" modal-title" > nombre del proyecto</h4>
+                                          <p class=" text-center modal-sub-title">Lorem ipsum dolor, sit amet consectetur.</p>
+                                        </div>
+                                        
+                                   </div>
+
+                                   <div class=" modal-box-image   text-center">
+                                        <img class="modal__img" src="../imagenes/1.jpg" alt="">
+                                        <p class="modal-box-image__text my-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum, voluptate! Dolorem ut similique sint? Facilis iusto distinctio numquam in animi dolorem ratione nihil esse, culpa incidunt ullam amet magni impedit!</p>
+                                        <ul class="modal-underlist">
+                                            <li><strong>Cliente:</strong>Threads</li>
+                                            <li><strong>Categoria:</strong>Ilustración</li>
+                                            
+                                        </ul>
+                                   </div>
+                                   <button type="button" class="btn btn-warning text-uppercase text-light fw-bold modal__btn-close" data-bs-dismiss="modal" > cerrar proyecto</button>
+                            </div>
+                      </div>
+                               </div>
+                
+                    </div>
+                    <div class="briefcase__box-grid  d-flex flex-column align-items-center col-12 col-sm-6 col-lg-4">
+                  <div class="box-grid__container"> 
+                        <img class="box-grid__img " src="../imagenes/2.jpg" alt="">
+                        <button type="button" class=" box-grid__btn" data-bs-toggle="modal" data-bs-target="#window-modal-2">
+                       <i class="icon-plus"></i>
+                        </button>
+            
+                  </div>
+                  
+                  <h3 class="box-grid__title text-center">Explore</h3>
+                  <h4 class="box-grid__sub-title text-center">Diseño Grafico</h4>
+
+                  <!-- Window modal -->
+
+                  <div class="modal fade"  id="window-modal-2" tabindex="-1"  aria-hidden="true">
+                      <div class="modal-dialog">
+                            <div class="modal-content">
+                                  <div class="modal-box-header">
+                                        <div class="modal-box-btn fs-6 ">
+                                          <button type="button" class="btn-close " data-bs-dismiss="modal" aria-label="close"></button>
+                                        </div>
+                                        <div class="modal-box-text text-center" >
+                                          <h4 class=" modal-title" > nombre del proyecto</h4>
+                                          <p class=" text-center modal-sub-title">Lorem ipsum dolor, sit amet consectetur.</p>
+                                        </div>
+                                        
+                                   </div>
+
+                                   <div class=" modal-box-image   text-center">
+                                        <img class="modal__img" src="../imagenes/2.jpg" alt="">
+                                        <p class="modal-box-image__text my-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum, voluptate! Dolorem ut similique sint? Facilis iusto distinctio numquam in animi dolorem ratione nihil esse, culpa incidunt ullam amet magni impedit!</p>
+                                        <ul class="modal-underlist">
+                                            <li><strong>Cliente:</strong>Explore</li>
+                                            <li><strong>Categoria:</strong>Diseño Grafico</li>
+                                            
+                                        </ul>
+                                   </div>
+                                   <button type="button" class="btn btn-warning text-uppercase text-light fw-bold modal__btn-close" data-bs-dismiss="modal" > cerrar proyecto</button>
+                            </div>
+                      </div>
+                  </div>
+                     
+                 <h4 class="box-grid__sub-tittle"></h4>
+                 <p class="box-grid__text"></p>
+                
+                    </div>
+                    <div class="briefcase__box-grid d-flex flex-column align-items-center  col-12 col-sm-6 col-lg-4">
+                  <div class="box-grid__container"> 
+                        <img class="box-grid__img " src="../imagenes/3.jpg" alt="">
+                        <button type="button" class=" box-grid__btn" data-bs-toggle="modal" data-bs-target="#window-modal-3">
+                       <i class="icon-plus"></i>
+                        </button>
+            
+                  </div>
+                  
+                  <h3 class="box-grid__title text-center">Finish</h3>
+                  <h4 class="box-grid__sub-title text-center">Identidad</h4>
+
+                  <!-- Window modal -->
+
+                  <div class="modal fade"  id="window-modal-3" tabindex="-1"  aria-hidden="true">
+                      <div class="modal-dialog">
+                            <div class="modal-content">
+                                  <div class="modal-box-header">
+                                        <div class="modal-box-btn fs-6">
+                                          <button type="button" class="btn-close " data-bs-dismiss="modal" aria-label="close"></button>
+                                        </div>
+                                        <div class="modal-box-text text-center" >
+                                          <h4 class=" modal-title" > nombre del proyecto</h4>
+                                          <p class=" text-center modal-sub-title">Lorem ipsum dolor, sit amet consectetur.</p>
+                                        </div>
+                                        
+                                   </div>
+
+                                   <div class=" modal-box-image   text-center">
+                                        <img class="modal__img" src="../imagenes/3.jpg" alt="">
+                                        <p class="modal-box-image__text my-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum, voluptate! Dolorem ut similique sint? Facilis iusto distinctio numquam in animi dolorem ratione nihil esse, culpa incidunt ullam amet magni impedit!</p>
+                                        <ul class="modal-underlist">
+                                            <li><strong>Cliente:</strong>Finish</li>
+                                            <li><strong>Categoria:</strong>Identidad</li>
+                                            
+                                        </ul>
+                                   </div>
+                                   <button type="button" class="btn btn-warning text-uppercase text-light fw-bold modal__btn-close" data-bs-dismiss="modal" > cerrar proyecto</button>
+                            </div>
+                      </div>
+                  </div>
+                     
+                 <h4 class="box-grid__sub-tittle"></h4>
+                 <p class="box-grid__text"></p>
+                
+                    </div>
+                    <div class="briefcase__box-grid d-flex flex-column align-items-center  col-12 col-sm-6 col-lg-4">
+                  <div class="box-grid__container"> 
+                        <img class="box-grid__img " src="../imagenes/4.jpg" alt="">
+                        <button type="button" class=" box-grid__btn" data-bs-toggle="modal" data-bs-target="#window-modal-4">
+                       <i class="icon-plus"></i>
+                        </button>
+            
+                  </div>
+                  
+                  <h3 class="box-grid__title text-center">Lines</h3>
+                  <h4 class="box-grid__sub-title text-center">Branding</h4>
+
+                  <!-- Window modal -->
+
+                  <div class="modal fade"  id="window-modal-4" tabindex="-1"  aria-hidden="true">
+                      <div class="modal-dialog">
+                            <div class="modal-content">
+                                  <div class="modal-box-header">
+                                        <div class="modal-box-btn fs-6 ">
+                                          <button type="button" class="btn-close " data-bs-dismiss="modal" aria-label="close"></button>
+                                        </div>
+                                        <div class="modal-box-text text-center" >
+                                          <h4 class=" modal-title" > nombre del proyecto</h4>
+                                          <p class=" text-center modal-sub-title">Lorem ipsum dolor, sit amet consectetur.</p>
+                                        </div>
+                                        
+                                   </div>
+
+                                   <div class=" modal-box-image   text-center">
+                                        <img class="modal__img" src="../imagenes/4.jpg" alt="">
+                                        <p class="modal-box-image__text my-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum, voluptate! Dolorem ut similique sint? Facilis iusto distinctio numquam in animi dolorem ratione nihil esse, culpa incidunt ullam amet magni impedit!</p>
+                                        <ul class="modal-underlist">
+                                            <li><strong>Cliente:</strong>Lines</li>
+                                            <li><strong>Categoria:</strong>Branding</li>
+                                            
+                                        </ul>
+                                   </div>
+                                   <button type="button" class="btn btn-warning text-uppercase text-light fw-bold modal__btn-close" data-bs-dismiss="modal" > cerrar proyecto</button>
+                            </div>
+                      </div>
+                  </div>
+                     
+                 <h4 class="box-grid__sub-tittle"></h4>
+                 <p class="box-grid__text"></p>
+                
+                    </div>
+                    <div class="briefcase__box-grid  d-flex flex-column align-items-center col-12 col-sm-6 col-lg-4">
+                  <div class="box-grid__container"> 
+                        <img class="box-grid__img " src="../imagenes/5.jpg" alt="">
+                        <button type="button" class=" box-grid__btn" data-bs-toggle="modal" data-bs-target="#window-modal-5">
+                       <i class="icon-plus"></i>
+                        </button>
+            
+                  </div>
+                  
+                  <h3 class="box-grid__title text-center">Southwest</h3>
+                  <h4 class="box-grid__sub-title text-center">Diseño de Stios Web</h4>
+
+                  <!-- Window modal -->
+
+                  <div class="modal fade"  id="window-modal-5" tabindex="-1"  aria-hidden="true">
+                      <div class="modal-dialog">
+                            <div class="modal-content">
+                                  <div class="modal-box-header">
+                                        <div class="modal-box-btn fs-6">
+                                          <button type="button" class="btn-close " data-bs-dismiss="modal" aria-label="close"></button>
+                                        </div>
+                                        <div class="modal-box-text text-center" >
+                                          <h4 class=" modal-title" > nombre del proyecto</h4>
+                                          <p class=" text-center modal-sub-title">Lorem ipsum dolor, sit amet consectetur.</p>
+                                        </div>
+                                        
+                                   </div>
+
+                                   <div class=" modal-box-image   text-center">
+                                        <img class="modal__img" src="../imagenes/5.jpg" alt="">
+                                        <p class="modal-box-image__text my-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum, voluptate! Dolorem ut similique sint? Facilis iusto distinctio numquam in animi dolorem ratione nihil esse, culpa incidunt ullam amet magni impedit!</p>
+                                        <ul class="modal-underlist">
+                                            <li><strong>Cliente:</strong>Southwest</li>
+                                            <li><strong>Categoria:</strong>Diseño de Sitios Web</li>
+                                            
+                                        </ul>
+                                   </div>
+                                   <button type="button" class="btn btn-warning text-uppercase text-light fw-bold modal__btn-close" data-bs-dismiss="modal" > cerrar proyecto</button>
+                            </div>
+                      </div>
+                  </div>
+                     
+                 <h4 class="box-grid__sub-tittle"></h4>
+                 <p class="box-grid__text"></p>
+                
+                    </div>
+                    <div class="briefcase__box-grid d-flex flex-column align-items-center  col-12 col-sm-6 col-lg-4">
+                  <div class="box-grid__container"> 
+                        <img class="box-grid__img " src="../imagenes/6.jpg" alt="">
+                        <button type="button" class=" box-grid__btn" data-bs-toggle="modal" data-bs-target="#window-modal-6">
+                       <i class="icon-plus"></i>
+                        </button>
+            
+                  </div>
+                  
+                  <h3 class="box-grid__title text-center">Window</h3>
+                  <h4 class="box-grid__sub-title text-center">Fotografía</h4>
+
+                  <!-- Window modal -->
+
+                  <div class="modal fade"  id="window-modal-6" tabindex="-1"  aria-hidden="true">
+                      <div class="modal-dialog">
+                            <div class="modal-content">
+                                  <div class="modal-box-header">
+                                        <div class="modal-box-btn">
+                                          <button type="button" class="btn-close " data-bs-dismiss="modal" aria-label="close"></button>
+                                        </div>
+                                        <div class="modal-box-text text-center" >
+                                          <h4 class=" modal-title" > nombre del proyecto</h4>
+                                          <p class=" text-center modal-sub-title">Lorem ipsum dolor, sit amet consectetur.</p>
+                                        </div>
+                                        
+                                   </div>
+
+                                   <div class=" modal-box-image   text-center">
+                                        <img class="modal__img" src="../imagenes/6.jpg" alt="">
+                                        <p class="modal-box-image__text my-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum, voluptate! Dolorem ut similique sint? Facilis iusto distinctio numquam in animi dolorem ratione nihil esse, culpa incidunt ullam amet magni impedit!</p>
+                                        <ul class="modal-underlist">
+                                            <li><strong>Cliente:</strong>Window</li>
+                                            <li><strong>Categoria:</strong>Fotografía</li>
+                                            
+                                        </ul>
+                                   </div>
+                                   <button type="button" class="btn btn-warning text-uppercase text-light fw-bold modal__btn-close" data-bs-dismiss="modal" > cerrar proyecto</button>
+                            </div>
+                      </div>
+                  </div>
+                     
+                 <h4 class="box-grid__sub-tittle"></h4>
+                 <p class="box-grid__text"></p>
+                
+                    </div>
+              </div>     
+
+          </div>
+
+    </section>
+
+    <section id="about" class="container-about d-flex flex-column align-items-center ">
+           <h2 class="about__tittle text-center"> Sobre Nosotros </h2>
+             
+           <p class="about__sub-tittle text-center "> Esta es nuestra historia. </p>
+          
+           <div class="about__box ">
+                <ul class="about__unodere-list position-relative  ">
+                    <li class="about__item-list ">
+                          <div class="item-list__container-img mx-3" > <img       class="rounded-circle item-list__img " src="../imagenes/Newlaster.jpg" alt="">
+                          </div>
+                          <div class="item-list__container-text ">
+                              <div class="item-list__title-1">
+                                  <h3 class="item-title__text-1 fw-bold">2009 - 2011
+                                  </h3>
+                                  <h3 class="item-title__text-1 fw-bold"> Nuestros Primeros Inicios</h3>
+                                  <div class="item-list__text text-secondary "> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ex illum debitis minima explicabo eaque nihil soluta voluptate itaque, blanditiis, maiores, dolor dolorem ipsam! Quis accusantium assumenda.</div>
+                              </div>
+                             
+                          </div>
+                    </li>
+                    <li class="about__item-list ">
+                          <div class="item-list__container-img mx-3" > <img       class="rounded-circle item-list__img " src="../imagenes/desk.jpg" alt="">
+                          </div>
+                          <div class="item-list__container-text ">
+                              <div class="item-list__title-2">
+                                  <h3 class="item-title__text-1 fw-bold">Marzo del  2011
+                                  </h3>
+                                  <h3 class="item-title__text-1 fw-bold"> Nace la Agencia</h3>
+                                  <div class="item-list__text text-secondary "> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ex illum debitis minima explicabo eaque nihil soluta voluptate itaque, blanditiis, maiores, dolor dolorem ipsam! Quis accusantium assumenda.</div>
+                              </div>
+                             
+                          </div>
+                    </li>
+                    <li class="about__item-list ">
+                          <div class="item-list__container-img mx-3" > <img       class="rounded-circle item-list__img " src="../imagenes/livingroom.jpg" alt="">
+                          </div>
+                          <div class="item-list__container-text ">
+                              <div class="item-list__title-3">
+                                  <h3 class="item-title__text-1 fw-bold">Diciembre del 2015
+                                  </h3>
+                                  <h3 class="item-title__text-1 fw-bold"> Impulsamos Todos Los Servicios</h3>
+                                  <div class="item-list__text text-secondary "> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ex illum debitis minima explicabo eaque nihil soluta voluptate itaque, blanditiis, maiores, dolor dolorem ipsam! Quis accusantium assumenda.</div>
+                              </div>
+                             
+                          </div>
+                    </li>
+                    <li class="about__item-list ">
+                          <div class="item-list__container-img mx-3" > <img       class="rounded-circle item-list__img " src="../imagenes/office.jpg" alt="">
+                          </div>
+                          <div class="item-list__container-text ">
+                              <div class="item-list__title-4">
+                                  <h3 class="item-title__text-1 fw-bold"> Julio del 2020
+                                  </h3>
+                                  <h3 class="item-title__text-1 fw-bold"> Segunda Fase De La Expación</h3>
+                                  <div class="item-list__text text-secondary "> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ex illum debitis minima explicabo eaque nihil soluta voluptate itaque, blanditiis, maiores, dolor dolorem ipsam! Quis accusantium assumenda.</div>
+                              </div>
+                             
+                          </div>
+                    </li>
+                    <li class="about__item-list ">
+                          <div class="about__box__story bg-warning mx-3 ">
+                              <P class="text-light">Se parte de nuestra historia</P>
+                        </div>
+                                               
+                    </li>
+                </ul>
+           </div>
+    </section>
+
+    <section id="team"class="container-team ">
+
+         <h2 class="team__tittle text-center"> Nuestro equipo de trabajo</h2>
+             
+          <p class="team__sub-tittle text-center"> Dispuestos a ser parte de tú proyecto </p>
+
+          <div class="team-flex-box d-lg-flex justify-content-center">
+                <div class="team-flex__item ">
+                      <div class="team-item__img text-center">
+                        <img class="team__img" src="../imagenes/team-1.jpg" alt="">
+                      </div>
+                      <div class="team-item__text">
+                        <h2 class="team-item__name text-center">Parveen Anand</h2>
+                        <h3 class="team-item__role text-center">Líder de Diseño</h3>
+                      </div>
+                      <div class="team__social-media text-center ">
+                          <i class="icon-twitter-3"></i>
+                          <i class="icon-facebook-circled-1"></i>
+                          <i class="icon-linkedin-circled-1"></i>
+                          
+                      </div>
+                     
+                      
+                </div>
+                <div class="team-flex__item">
+                      <div class="team-item__img text-center">
+                           <img class="team__img" src="../imagenes/team-2.jpg" alt="">
+                      </div>
+                      <div class="team-item__text">
+                          <h2 class="team-item__name text-center">Diana Petersen</h2>
+                          <h3 class="team-item__role text-center">Líder de Marketing</h3>
+                       </div>
+                       <div class="team__social-media text-center ">
+                          <i class="icon-twitter-3"></i>
+                          <i class="icon-facebook-circled-1"></i>
+                          <i class="icon-linkedin-circled-1"></i>
+                       </div>
+                </div>
+
+                <div class="team-flex__item">
+
+                     <div class="team-item__img text-center">
+                         <img class="team__img" src="../imagenes/team-3.jpg" alt="">
+                    </div>
+                     <div class="team-item__text">
+                         <h2 class="team-item__name text-center">Larry Parker</h2>
+                         <h3 class="team-item__role text-center">Líder de Desarrollo Web</h3>
+                    </div>
+                    <div class="team__social-media text-center ">
+                          <i class="icon-twitter-3"></i>
+                          <i class="icon-facebook-circled-1"></i>
+                          <i class="icon-linkedin-circled-1"></i>
+                      
+                    </div>
+
+                </div>
+          </div>
+
+          <div class="team__text-fotter  mt-5 mx-auto">
+            <p class="text-secondary fw-bold text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque illo quaerat recusandae unde Cumque illo quaerat recusandae quaerat recusandae. </p>
+       </div>
+
+    </section>
+
+    <figure class="container-brand d-flex flex-column align-items-center flex-lg-row justify-content-lg-center align-items-lg-center ">
+          <div class="box-brand__img py-4 mx-lg-4">
+                <img class="brand__img-1" src="../imagenes/microsoft.svg" alt="">
+          </div>
+          <div class="box-brand__img py-4  mx-lg-4">
+                <img class="brand__img-2" src="../imagenes/google.svg" alt="">
+          </div>
+          <div class="box-brand__img py-4 mx-lg-4">
+                <img class="brand__img-3" src="../imagenes/facebook.svg" alt="">
+          </div>
+          <div class="box-brand__img py-4 mx-lg-4">
+                <img class="brand__img-4" src="../imagenes/ibm.svg" alt="">
+          </div>
+      
+    </figure>
+    
+    <footer class="container-footer d-flex flex-column align-items-center  pt-4 pb-2 flex-lg-row justify-content-lg-center ">
+
+          <div class="footer__text-box mx-lg-4">
+            <p class="text__rgiht text-center">Copyright © Your Website 2021</p>
+          </div>
+          <div class="footer__social-media-box  mx-lg-4">
+            <i class="icon-twitter-3 "></i>
+            <i class="icon-facebook-circled-1"></i>
+            <i class="icon-linkedin-circled-1"></i>
+          </div>
+          <div class="footer__text-box mx-lg-4 ">
+            <p class="text__rgiht text-center">Privacy Policy   Terms of Use</p>
+          </div>
+
+
+    </footer>
+
+    <!-- Contact modal -->
+
+    <div class="modal fade"  id="contact" tabindex="-1"  aria-hidden="true">
+      <div class="modal-dialog  contact-continer ">
+              <div class="modal-content bg-dark contact__modal pb-5 ">
+                    <div class="modal-box-btn fs-6">
+                         <button type="button" class="btn-close modal-contact__btn-close fs-3" data-bs-dismiss="modal" aria-label="close"></button>
+                    </div>
+
+                    <div class="modal-contact__text">
+                          <h2 class="text-center text-light modal-contact__title "> contáctanos</h2>
+                          <p class="text-center text-secondary modal-contact__sub-title">Lorem ipsum, dolor sit amet consectetur adipisicing</p>
+                    </div>
+
+                    <div class="modal-contact__form d-flex flex-column align-items-center" >
+                          <input class="contact__input" type="text" placeholder="Tú nombre">
+                          <input class="contact__input" type="email" placeholder="Tú correo eléctronico">
+                          <input class="contact__input" type="text" placeholder="Tú número de teléfono">
+                          <textarea class="contact__textarea" name="" id="" cols="54" rows="8" placeholder="Escribenos tú mensaje"></textarea>
+                    </div>
+                    
+                    <div class="modal-contact__send text-center">
+                      <input type="submit" class="btn btn-warning text-light modal-contact__btn-send " >
+                    </div>
+
+            </div>
+    </div> 
+  
+    
+
+
+
+
+
+
+    
+
+
+
+
+
+
+<!-- Boostrap Script-->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script> 
+<!-- <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.min.js" integrity="sha384-Atwg2Pkwv9vp0ygtn1JAojH0nYbwNJLPhwyoVbhoPwBhjQPR5VtM2+xf0Uwh9KtT" crossorigin="anonymous"></script> -->
+    
+
+  </body>
+</html>
